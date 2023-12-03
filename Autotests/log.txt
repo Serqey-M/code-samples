@@ -1,0 +1,16 @@
+= 2023-11-28 00:40:14 INFO ====== WebDriver manager ======
+= 2023-11-28 00:40:26 INFO Get LATEST chromedriver version for google-chrome
+= 2023-11-28 00:40:26 INFO Get LATEST chromedriver version for google-chrome
+= 2023-11-28 00:40:26 INFO There is no [win64] chromedriver "119.0.6045.160" for browser google-chrome "119.0.6045.160" in cache
+= 2023-11-28 00:40:26 INFO Get LATEST chromedriver version for google-chrome
+= 2023-11-28 00:40:27 INFO WebDriver version 119.0.6045.105 selected
+= 2023-11-28 00:40:27 INFO Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/win32/chromedriver-win32.zip
+= 2023-11-28 00:40:27 INFO About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/win32/chromedriver-win32.zip
+= 2023-11-28 00:40:27 INFO Driver downloading response is 200
+= 2023-11-28 00:40:28 INFO Get LATEST chromedriver version for google-chrome
+= 2023-11-28 00:40:29 INFO Driver has been saved in cache [C:\Users\User\.wdm\drivers\chromedriver\win64\119.0.6045.160]
+= 2023-11-28 00:40:30 INFO Test1 Starting
+= 2023-11-28 00:40:32 INFO Test2 Starting
+= 2023-11-28 00:40:33 INFO Test3 Starting
+= 2023-11-28 00:40:40 INFO Test4 Starting
+= 2023-11-28 00:40:44 INFO Form successfully submitted

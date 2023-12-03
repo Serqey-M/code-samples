@@ -1,0 +1,13 @@
+address: https://test-stand.gb.ru
+browser: crome
+sleep_time: 3
+implicitly_wait: 3
+username: Sxcvb
+password: 6c0cf2dc81
+new_post_description: Нижегородская область
+new_post_content: Арзамас
+email: 123@mail.ru
+contact_content: Нижегородская область
+fromaddr: ranik15@mail.ru
+toaddr: ranik15@mail.ru
+mypass: iAipq3c4Xh7szxCK9ii5
