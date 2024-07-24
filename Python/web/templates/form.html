@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Форма добавления</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+        <a href="http://127.0.0.1:5000">Главная</a>
+        <a href="http://127.0.0.1:5000/hotels">Список отелей</a>
+        <h1> Добавить отель</h1>
+    <form method="POST">
+        <p>{{ form.name.label }} {{ form.name() }}</p>
+        <p>{{ form.country.label }} {{ form.country() }}</p>
+        <p>{{ form.dist_sea.label }} {{ form.dist_sea() }}</p>
+        <p>{{ form.beach.label }} {{ form.beach() }}</p>
+        <p>{{ form.wihi.label }} {{ form.wihi() }}</p>
+        <p>{{ form.ing.label }} {{ form.ing() }}</p>
+        <p>{{ form.info.label }} {{ form.info() }}</p>
+        <input type="submit" value="Добавить">
+    </form>
+    <img class="big_img" src="static\img\dostoprimechatelnosti.jpg"
+</body>
+</html>

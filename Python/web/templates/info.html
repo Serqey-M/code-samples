@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Информация</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <a href="http://127.0.0.1:5000">Главная</a>
+        <a href="http://127.0.0.1:5000/hotels">Список отелей</a>
+        <a href="http://127.0.0.1:5000/form">Добавить отель</a>
+        <p> </p>
+        <table border="5">
+            <tr>
+                <th> Id</th>
+                <th> Отель</th>
+                <th> Страна отеля</th>
+                <th> Отдаленность от моря</th>
+                <th> Вид пляжа</th>
+                <th> Наличие Wi-hi</th>
+            <tr>
+            <tr>
+                <th> {{hotel.id}}</th>
+                <th> {{hotel.name}}</th>
+                <th> {{hotel.country}}</th>
+                <th> {{hotel.dist_sea}}</th>
+                <th> {{hotel.beach}}</th>
+                <th> {{hotel.wihi}}</th>
+            </tr>
+        </table>
+        <p>{{hotel.info}}</p>
+        <img class="big_img" src="{{hotel.img}}"
+    </body>
+</html>

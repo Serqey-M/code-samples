@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Список отелей
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <a href="http://127.0.0.1:5000">Главная</a>
+        <a href="http://127.0.0.1:5000/form">Добавить отель</a>
+       <p>Укажите Id отеля о котором хотите узнать подробную информацию</p>
+        <form method="POST">
+            <p>{{ form.id.label }} {{ form.id() }}</p>
+            <input type="submit" value="Показать">
+        </form>
+        <h1> Список отелей</h1>
+        <table border = "5">
+            <tr>
+                <th> </th>
+                <th> Id</th>
+                <th> Отель</th>
+                <th> Страна отеля</th>
+                <th> Отдаленность от моря</th>
+                <th> Вид пляжа</th>
+                <th> Наличие Wi-hi</th>
+            {% for i in hotels %}
+            <tr> 
+            <tr>
+                <th> <img class="little_img" 
+                    src={{i.img}}></th>
+                <th> {{i.id}}</th>
+                <th> {{i.name}}</th>
+                <th> {{i.country}}</th>
+                <th> {{i.dist_sea}}</th>
+                <th> {{i.beach}}</th>
+                <th> {{i.wihi}}</th>
+            </tr>
+            {% endfor%}
+        </table>
+    </body>
+</html>
